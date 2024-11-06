@@ -42,9 +42,9 @@ function rollDice() {
     // Determine the winner and update the <h1> text
     let header = document.querySelector("h1"); // Selects the <h1> element
     if (randomNumber1 > randomNumber2) {
-      header.textContent = "🚩 Player 1 Wins!";
+      header.textContent = "🚩 You Win!";
     } else if (randomNumber2 > randomNumber1) {
-      header.textContent = "Player 2 Wins! 🚩";
+      header.textContent = "Computer Wins! 🚩";
     } else {
       header.textContent = "It's a Draw!";
     }
