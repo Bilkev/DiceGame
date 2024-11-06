@@ -19,5 +19,6 @@ This game simulates a dice roll for two players each time the "Play" button is c
 - **Event Handling** with JavaScript to trigger the game on button clicks.
 
 ## How to Run the Game
+https://bilkev.github.io/DiceGame/
 
 
